@@ -1,0 +1,195 @@
+.Main_Home_Selection
+{
+    /* height: 100vh; */
+    position: ABSOLUTE;
+    /* padding-top: 16rem; */
+    text-align: center;
+    top: 50%;
+    /* LEFT: 50%; */
+    width: 100%;
+}
+.Home_Selection
+{
+background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(http://hnd-demo.detheme.com/textrotator/wp-content/uploads/sites/18/revslider/text-rotator/shutterstock_103139489.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+   
+    opacity: 1;
+    POSITION: relative;
+    HEIGHT: 90VH;
+    visibility: inherit;
+}
+.rw-wrapper{
+    position: relative;
+	
+
+}
+.rw-sentence{
+	
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rw-sentence h1{
+	color: black;
+
+}
+.rw-words{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.rw-words-1 h1{
+    position: absolute;
+text-align: center;	
+	opacity: 0;
+    overflow: hidden;
+    font-size: 5rem;
+    font-weight: bold;
+	color: black;
+	-webkit-animation: rotateWord 18s linear infinite 0s;
+	-ms-animation: rotateWord 18s linear infinite 0s;
+	animation: rotateWord 18s linear infinite 0s;
+}
+.rw-words-1 h1:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+	-ms-animation-delay: 3s; 
+	animation-delay: 3s; 
+	color: black;
+}
+.rw-words-1 h1:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+	-ms-animation-delay: 6s; 
+	animation-delay: 6s; 
+	color: black;
+}
+.rw-words-1 h1:nth-child(4) { 
+    -webkit-animation-delay: 9s; 
+	-ms-animation-delay: 9s; 
+	animation-delay: 9s; 
+    color: black;
+}
+.rw-words-1 h1:nth-child(5) { 
+    -webkit-animation-delay: 12s; 
+	-ms-animation-delay: 12s; 
+	animation-delay: 12s; 
+	color: black;
+}
+.rw-words-1 h1:nth-child(6) { 
+    -webkit-animation-delay: 15s; 
+	-ms-animation-delay: 15s; 
+	animation-delay: 15s; 
+    color: black;
+}
+/*  */
+.rw-words2{
+	display: inline;
+  
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.rw-words-3 h1{
+	position: absolute;
+    opacity: 0;
+    bottom:1%;
+    font-weight: bold;
+    font-size: 5rem;
+	overflow: hidden;
+	color: black;
+	-webkit-animation: rotateWord 18s linear infinite 0s;
+	-ms-animation: rotateWord 18s linear infinite 0s;
+	animation: rotateWord 18s linear infinite 0s;
+}
+.rw-words-3 h1:nth-child(2) { 
+    -webkit-animation-delay: 3s; 
+	-ms-animation-delay: 3s; 
+	animation-delay: 3s; 
+	color: black;
+}
+.rw-words-3 h1:nth-child(3) { 
+    -webkit-animation-delay: 6s; 
+	-ms-animation-delay: 6s; 
+	animation-delay: 6s; 
+	color: black;
+}
+.rw-words-3 h1:nth-child(4) { 
+    -webkit-animation-delay: 1s; 
+	-ms-animation-delay: 1s; 
+	animation-delay: 1s; 
+    color: black;
+}
+.rw-words-3 h1:nth-child(5) { 
+    -webkit-animation-delay: 1s; 
+	-ms-animation-delay: 1s; 
+	animation-delay: 1s; 
+	color: black;
+}
+.rw-words-3 h1:nth-child(6) { 
+    -webkit-animation-delay: 1s; 
+	-ms-animation-delay: 1s; 
+	animation-delay: 1s; 
+    color: black;
+}
+
+
+
+
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.poet_padding
+{
+    padding-top: 7rem;
+}
+.circle-style
+{
+	font-size: 2.5rem;
+    /* font-weight: bold; */
+    background-color: transparent;
+    color: black;
+    padding-top: 5%; 
+}
+
+@media only screen and (min-width:0px)and (max-width:1025px)
+{
+
+    .rw-words-1 h1{
+        font-size: 2.5rem;
+    }
+    .rw-words-3 h1{
+        font-size: 2.5rem;
+    }
+}

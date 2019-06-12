@@ -1,0 +1,15 @@
+.bg-clr
+{
+  background-color: #d1d1d1
+}
+.txt-property
+{
+  font-size: 1.6em;
+    color: #929292;
+    font-family: cursive;
+}
+.share
+{
+  display: flex;
+  justify-content: flex-end;
+}

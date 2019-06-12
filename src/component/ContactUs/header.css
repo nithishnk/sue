@@ -1,0 +1,9 @@
+.padding
+{
+    padding-top:75px;
+}
+body{
+        background-color: whitesmoke;
+}
+
+@media screen (min-width: 768px)

@@ -1,0 +1,23 @@
+.HomeSubSelectionfiveTitle
+{
+font-size: 40px;
+color:black;
+font-weight: bold;
+}
+.HomeStageSubFive
+{
+    padding-top: 10%;
+    background-color: #f3f3f3;
+}
+.HomeSubSelectionfivepara
+{
+color: #929292;
+font-family: lora;
+font-size: 24px;
+font-style: italic;
+}
+
+.HomeSubSelectionfivepara1
+{
+line-height: 30px;
+}

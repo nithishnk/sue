@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.txt-italic
+{
+    font-family: lora !important;
+    font-size: 22px !important;
+    font-style: italic !important;
+    color: #a4a4a4 !important;
+}
+.txt-para
+{
+  font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+.txt-head
+{
+  font-size: 40px;
+  font-family: open sans !important;
+  font-weight: bold;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.bold
+{
+  font-weight: bold !important;
+}
+.txt-head2
+{
+  font-size: 28px;
+  font-family: open sans !important;
+  font-weight: bold;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

@@ -1,0 +1,53 @@
+.title_Home_style
+{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.Paragrap_style{
+    font-family:  lora;
+    font-style: italic;
+    color: #929292;
+}
+.titlepargraph_style
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+.SectionTwopara_style
+{
+    font-family: Open Sans;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #000000;
+}
+.SectionTwoBorder
+{
+    border-right:1px solid #9292924d;
+}
+.SectionTwopadding_sytle
+{
+    padding-left: 2.5%;
+}
+.Home_MainSelection
+{
+    padding-top: 11%;
+    padding-bottom: 7%;
+}
+.MainSelection_Home
+{
+    background-color: #f3f3f3;
+}
+
+@media only screen and (min-width:0px)and (max-width:787.9px)
+{
+
+    .SectionTwoBorder
+    {
+        border-right: none;
+    }
+    .SectionTwopadding_sytle
+    {
+        padding-left: 0px;
+    }
+}
